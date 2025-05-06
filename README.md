@@ -31,13 +31,13 @@ A Python-based chatbot that leverages **Natural Language Processing (NLP)** to u
 git clone https://github.com/maheshshinde16/Chatbot_using_nlp.git
 cd Chatbot_using_nlp
 ```
-###2. Install Dependencies
+### 2. Install Dependencies
 Ensure Python 3.7+ is installed, then run:
 
 ```bash
 pip install numpy pandas nltk tensorflow keras
 ```
-###3. Download NLTK Resources
+### 3. Download NLTK Resources
 In a Python shell or at the top of your script:
 
 ```bash
@@ -45,26 +45,26 @@ import nltk
 nltk.download('punkt')
 nltk.download('wordnet')
 ```
-###4. Explore the Notebook
+### 4. Explore the Notebook
 To understand the chatbot logic step-by-step:
 
 ```bash
 jupyter notebook ImplementationofChatBot.ipynb
 ```
-###5. Run the Chatbot
+### 5. Run the Chatbot
 Start chatting in your terminal:
 
 ```bash
 python chatbot.py
 ```
 
-##🛠️ Customization
+## 🛠️ Customization
 Add New Intents: Edit intents.json to include additional patterns and responses.
 
 Improve Logic: Modify chatbot.py to use more advanced NLP techniques or integrate ML/DL models.
 
 GUI Integration: Add a graphical interface using Tkinter, Flask, or Streamlit for better user experience.
 
-##🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to modify or enhance.
 
